@@ -127,17 +127,17 @@ header nav ul li a {
 }
 
 .section-one {
-/***	width: 29%; ***/
+	/***	width: 29%; ***/
 }
 
 .section-two {
-/***	width: 42%; ***/
+	/***	width: 42%; ***/
 	border-top: 0.3125rem solid #EEE;
-	border-bottom: 0.3125rem solid #EEE;
+	border-bottom: 0.3125rem solid #EEE; 
 }
 
 .section-three {
-/***	width: 29%; ***/
+	/***	width: 29%; ***/
 }
 
 .bottom-section h3 {
@@ -170,6 +170,40 @@ footer span {
 	color: #45610E;
 	font-size: 0.875rem;
 }
+
+/****** MEDIA BREAK *******/
+
+@media all and (min-width:768px) {
+
+	.bottom-section .content-wrapper {
+		border-top: 0.3125rem solid #EEE;
+		border-bottom: 0.3125rem solid #EEE;
+		justify-content: space-evenly;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		box-sizing: border-box;
+		padding: 0 2.5rem;
+		width:100%
+	}
+
+	.section-one {
+		width: 30%;
+	}
+
+	.section-two {
+		width: 40%;
+		border-top:0;
+		border-bottom:0;
+		border-left: 0.3125rem solid #EEE;
+		border-right: 0.3125rem solid #EEE;
+		padding:0 1.875rem;
+	}
+
+	.section-three {
+		width:30%
 
 /******** DESKTOP ********/
 
