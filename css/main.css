@@ -47,6 +47,7 @@ h4 {
 
 p {
 	line-height: 2.25rem;
+	font-size:1rem;
 }
 
 /******** HEADER STYLES ********/
@@ -59,7 +60,8 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 2.375rem 0;
+	padding-top: 2.375rem;
+	padding-bottom:0.9375rem;
 	width:100%;
 }
 
@@ -68,8 +70,9 @@ header h1 span {
 }
 
 header nav {
-	padding-bottom:2.875rem;
-	margin-right:2.1875rem;
+	padding-bottom:1.75rem;
+	margin-right:1.25rem;
+	margin-top:0.75rem;
 }
 
 header nav ul {
@@ -124,22 +127,24 @@ header nav ul li a {
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	padding: 0 2.5rem;
-	width:100%;
+	align-items: flex-start;
 }
 
 .section-one {
-	/***	width: 29%; ***/
+	/*** width: 29%; ***/
+	width:100%;
 }
 
 .section-two {
-	/***	width: 42%; ***/
+	/*** width: 42%; ***/
 	border-top: 0.3125rem solid #EEE;
 	border-bottom: 0.3125rem solid #EEE; 
+	width:100%;
 }
 
 .section-three {
-	/***	width: 29%; ***/
+	/*** width: 29%; ***/
+	width:100%;
 }
 
 .bottom-section h3 {
